@@ -1,0 +1,22 @@
+{
+  "name": "updat-eta",
+  "authors": [
+    "Waqid Munawar Volli"
+  ],
+  "description": "Event based multi-user ETA tracker.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,56 @@
+WAQID
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/7e4f635b06d3c8e77bfad7d50bec96d4/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Waqid\", \"latitude\": \"40.733283\", \"longitude\": \"-74.049715\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/7e4f635b06d3c8e77bfad7d50bec96d4/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Waqid\", \"latitude\": \"40.728688\", \"longitude\": \"-74.031923\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/7e4f635b06d3c8e77bfad7d50bec96d4/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Waqid\", \"latitude\": \"40.728688\", \"longitude\": \"-74.031923\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/7e4f635b06d3c8e77bfad7d50bec96d4/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Waqid\", \"latitude\": \"40.728688\", \"longitude\": \"-74.031923\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/7e4f635b06d3c8e77bfad7d50bec96d4/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Waqid\", \"latitude\": \"40.728385\", \"longitude\": \"-74.007166\"}"
+
+
+
+MARK
+
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/46230de63122e9df67a7d3df0a0e0e92/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Mark\", \"latitude\": \"40.804528\", \"longitude\": \"-73.957717\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/46230de63122e9df67a7d3df0a0e0e92/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Mark\", \"latitude\": \"40.804528\", \"longitude\": \"-73.957717\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/46230de63122e9df67a7d3df0a0e0e92/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Mark\", \"latitude\": \"40.804528\", \"longitude\": \"-73.957717\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/46230de63122e9df67a7d3df0a0e0e92/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Mark\", \"latitude\": \"40.804528\", \"longitude\": \"-73.957717\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/46230de63122e9df67a7d3df0a0e0e92/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Mark\", \"latitude\": \"40.804528\", \"longitude\": \"-73.957717\"}"
+
+
+SHUYU
+
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/dd29ae7ca234ff3ed30efe21853e8ebf/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Shuyu\", \"latitude\": \"40.694138\", \"longitude\": \"-73.986078\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/dd29ae7ca234ff3ed30efe21853e8ebf/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Shuyu\", \"latitude\": \"40.694138\", \"longitude\": \"-73.986078\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/dd29ae7ca234ff3ed30efe21853e8ebf/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Shuyu\", \"latitude\": \"40.694138\", \"longitude\": \"-73.986078\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/dd29ae7ca234ff3ed30efe21853e8ebf/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Shuyu\", \"latitude\": \"40.694138\", \"longitude\": \"-73.986078\"}"
+
+
+curl -i -X PUT http://api-m2x.att.com/v2/devices/dd29ae7ca234ff3ed30efe21853e8ebf/location -H "X-M2X-KEY: ce14eaf4f373bcd30ff39b72c6196804" -H "Content-Type: application/json" -d  "{ \"name\": \"Shuyu\", \"latitude\": \"40.694138\", \"longitude\": \"-73.986078\"}"
+
