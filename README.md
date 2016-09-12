@@ -9,6 +9,7 @@ It made use of AT&T M2X.
 ####Current Version:
 
 The current version is located under websockets folder.
+
 It makes use of Node.js and Socket.IO.
 
 
@@ -19,10 +20,9 @@ It makes use of Node.js and Socket.IO.
 2) In the terminal, navigate to websockets folder and type:
 
 ```
-    npm Install
+    npm install
 
     node app.js
-
 ```
 
 3) Open http://localhost:3000/ in your browser.
@@ -34,5 +34,5 @@ Note: You can open multiple browser windows and check the behavior.
 
 ####TO DO:
 
-[ ]Modify the code to get user's current location.
-[ ]Generate unique URL's that will reflect a unique session which the host user can share with others.
+-[ ] Modify the code to get user's current location.
+-[ ] Generate unique URL's that will reflect a unique session which the host user can share with others.
