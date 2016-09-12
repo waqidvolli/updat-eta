@@ -34,6 +34,6 @@ Note: You can open multiple browser windows and check the behavior.
 
 ####TO DO:
 
--[ ] Modify the code to get user's current location.
+- [ ] Modify the code to get user's current location.
 
--[ ] Generate unique URL's that will reflect a unique session which the host user can share with others.
+- [ ] Generate unique URL's that will reflect a unique session which the host user can share with others.
