@@ -19,75 +19,17 @@
     </style>
     <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/assets/master.js"></script>
 </head>
 
 <body>
+    <button onclick="initNewSession()">Init new session</button></br>
+    <input id="session-id" type="number"/><button onclick="joinSession()">Join session</button>
     <button onclick="simulatePerson('A')">Start Simulation for Person A</button>
     <button onclick="simulatePerson('B')">Start Simulation for Person B</button>
     <button onclick="simulatePerson('C')">Start Simulation for Person C</button>
     <div id="map" style="width=500px;height=500px;"></div>
-    <script>
-        let map = null;
 
-        //web socket to listen to location event
-        const socket = io();
-        socket.on('location', function(data) {
-            const marker = new google.maps.Marker({
-                position: data.pos,
-                map: map,
-                icon: '/circle.png',
-                label: {
-                    text: data.name,
-                    color: 'white'
-                }
-            });
-        });
-
-        //initialize the map with destination marker
-        function initMap() {
-            const destination = {
-                lat: 40.751332,
-                lng: -74.006414
-            };
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: destination,
-                zoom: 12
-            });
-            const marker = new google.maps.Marker({
-                position: destination,
-                map: map,
-                icon: '/dest.png'
-            });
-        }
-
-        //simulate person
-        function simulatePerson(person) {
-            currentPerson = person;
-            $.ajax({
-                type: 'GET',
-                url: '/' + person
-            }).done(function(res) {
-
-                for (let i = 1; i <= res.data.length; i++) {
-                    setTimeout(function() {
-                        updateMap(res.name, res.data[i - 1]);
-                    }, ((i + 1) * 1000));
-                }
-            });
-        }
-
-        //update map with simulation data
-        function updateMap(name, pos) {
-            const location = {
-                lat: pos.lat,
-                lng: pos.lng
-            }
-            socket.emit('location', {
-                name: name,
-                pos: location
-            });
-        }
-    </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=enter-api-key&callback=initMap">
     </script>
 </body>
