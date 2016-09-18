@@ -1,3 +1,4 @@
+geolocation/node_modules/*
 node_modules/*
 .DS_Store
 lib/.DS_Store

@@ -34,11 +34,11 @@
             const marker = new google.maps.Marker({
                 position: data.pos,
                 map: map,
-                icon: '/assets/circle.png',
-                label: {
-                    text: data.name,
-                    color: 'white'
-                }
+                icon: '/assets/dot.png',
+                // label: {
+                //     text: data.name,
+                //     color: 'white'
+                // }
             });
         });
         // A $( document ).ready() block.
@@ -68,7 +68,7 @@
         }
         console.info('Emiting ',`session_${sessionId}`);
         socket.emit(`session`, {
-            name: name,
+            // name: name,
             pos: location,
             sessionId : sessionId
         });

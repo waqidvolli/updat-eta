@@ -25,7 +25,7 @@ The current version is built using Node.js and Socket.IO.
 
     node app.js
 ```
-3) In track.html, replace <enter-maps-api-key> with your [key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+3) In track.html, replace enter-maps-api-key with your [key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 4) Open http://localhost:3000/ in your browser.
 
@@ -36,6 +36,8 @@ Note: You can open multiple browser windows and check the behavior.
 
 ####TO DO:
 
-- [ ] Modify the code to get user's current location.
+- [x] Modify the code to get user's current location.
 
 - [x] Generate unique URL's that will reflect a unique session which the host user can share with others.
+
+- [ ] Revise ETA calculator
