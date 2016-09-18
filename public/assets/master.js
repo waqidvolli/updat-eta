@@ -6,7 +6,7 @@
     //TODO: move to sessions
     let sessionId = getURLParam('id', location.href);
     if(sessionId) {
-      joinSession();
+        joinSession();
     }
     //default map
     let map = null;
@@ -48,7 +48,7 @@
 
     }
 
-    
+
 
     //simulate person
     function simulatePerson(person) {
