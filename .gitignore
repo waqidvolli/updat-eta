@@ -1,4 +1,5 @@
 geolocation/node_modules/*
+simulation/node_modules/*
 node_modules/*
 .DS_Store
 lib/.DS_Store

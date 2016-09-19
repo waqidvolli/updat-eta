@@ -18,7 +18,7 @@ The current version is built using Node.js and Socket.IO.
 
 1) Install [Node.js](https://nodejs.org/en/download/)
 
-2) In the terminal, navigate to project folder and type:
+2) In the terminal, navigate to simulation folder and type:
 
 ```
     npm install
